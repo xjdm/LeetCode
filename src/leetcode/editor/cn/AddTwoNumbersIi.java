@@ -5,7 +5,7 @@ import java.util.Stack;
 //Java：两数相加 II
 public class AddTwoNumbersIi {
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        P445Solution solution = new P445Solution();
         ListNode l1 = new ListNode(5);
         ListNode l2 = new ListNode(2,new ListNode(6));
         ListNode listNode = solution.addTwoNumbers(l1, l2);
@@ -21,7 +21,7 @@ public class AddTwoNumbersIi {
  * ListNode(int x) { val = x; }
  * }
  */
-class Solution {
+class P445Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode r1 = l1;
         ListNode r2 = l2;
