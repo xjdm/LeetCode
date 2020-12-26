@@ -4,7 +4,7 @@ package com.idstaa.lg.stage1;
  * @author chenjie
  * @date 2020/12/24 11:17
  */
-public class Solution {
+public class Solution1 {
     public int myAtoi(String str) {
         // 在此处写入代码
         char[] chars = str.toCharArray();
@@ -16,7 +16,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        int i = new Solution().myAtoi("4231111111111");
+        int i = new Solution1().myAtoi("4231111111111");
         System.out.println(i);
     }
 }
