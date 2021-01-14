@@ -33,8 +33,4 @@ class ListNode {
           val = x;
           next = null;
       }
-    ListNode() {
-        val = x;
-        next = null;
-    }
 }

@@ -6,8 +6,9 @@ package com.idstaa.lg.stage5;
  */
 public class Solution2 {
     public ListNode reverseList(ListNode head) {
-        ListNode newList = new ListNode();
+       /* ListNode newList = new ListNode();
 
-        return newList;
+        return newList;*/
+       return null;
     }
 }
