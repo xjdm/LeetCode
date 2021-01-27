@@ -1,7 +1,5 @@
 package leetcode.editor.cn;
 
-import com.idstaa.lg.stage5.Solution;
-
 //Java：环形链表 II
 public class LinkedListCycleIi{
     public static void main(String[] args) {

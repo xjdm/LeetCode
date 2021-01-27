@@ -1,6 +1,6 @@
 package leetcode.editor.cn;
 
-import com.idstaa.lg.stage5.Solution;
+import com.idstaa.lg.model1.stage5.Solution;
 
 //Java：删除排序链表中的重复元素
 public class RemoveDuplicatesFromSortedList {

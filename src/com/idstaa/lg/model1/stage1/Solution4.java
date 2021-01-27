@@ -1,4 +1,4 @@
-package com.idstaa.lg.stage1;
+package com.idstaa.lg.model1.stage1;
 
 
 /**

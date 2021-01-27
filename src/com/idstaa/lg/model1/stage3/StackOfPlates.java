@@ -1,4 +1,4 @@
-package com.idstaa.lg.stage3;
+package com.idstaa.lg.model1.stage3;
 
 import java.util.ArrayList;
 import java.util.Stack;

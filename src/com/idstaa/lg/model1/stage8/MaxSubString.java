@@ -1,4 +1,4 @@
-package com.idstaa.lg.stage8;
+package com.idstaa.lg.model1.stage8;
 
 /**
  * 2/4 至多包含两个不同字符的最长子串

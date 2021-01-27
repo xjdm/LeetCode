@@ -1,4 +1,4 @@
-package com.idstaa.lg.stage4;
+package com.idstaa.lg.model1.stage4;
 
 import java.util.Stack;
 

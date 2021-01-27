@@ -1,4 +1,4 @@
-package com.idstaa.lg.stage5;
+package com.idstaa.lg.model1.stage5;
 
 /**
  * @author chenjie
