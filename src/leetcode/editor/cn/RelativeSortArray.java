@@ -15,32 +15,22 @@ public class RelativeSortArray {
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution1122 {
     public int[] relativeSortArray(int[] arr1, int[] arr2) {
-        Map<Integer, Integer> map = new HashMap();
-        int index = 0;
-        for (int i = 0; i < arr2.length; i++) {
-            map.put(arr2[i], i);
+        int[] tmp=new int [1001];
+        for(int num:arr1){
+            tmp[num]++;
         }
-        for (int i = 0; i < arr1.length; i++) {
-            for (int j = i + 1; j < arr1.length; j++) {
-                if (map.get(arr1[j]) == null) {
-                    if (map.get(arr1[i]) == null) {
-                        // 同时为空，交换
-                        if (arr1[j] < arr1[i]) {
-                            // 交换
-                            int temp = arr1[i];
-                            arr1[i] = arr1[j];
-                            arr1[j] = temp;
-                        }
-                    }
-                    continue;
-                }
-                // j不为空，i为空或者位置小，交换
-                if (map.get(arr1[i]) == null || map.get(arr1[i]) > map.get(arr1[j])) {
-                    // 交换
-                    int temp = arr1[i];
-                    arr1[i] = arr1[j];
-                    arr1[j] = temp;
-                }
+        int pos=0;      //arr1中索引的位置 也是arr2中含有的数字在arr1中的最大长度
+        for(int num:arr2){
+            while(tmp[num]>0){
+                arr1[pos++]=num;
+                tmp[num]--;
+            }
+        }
+        //int check=pos;  这里是arr2中没有的值开始的位置。
+        for(int i=0;i<1001;++i){
+            while(tmp[i]>0){
+                arr1[pos++]=i;
+                tmp[i]--;
             }
         }
         return arr1;
