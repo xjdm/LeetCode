@@ -13,7 +13,7 @@ public class ErChaShuDeJingXiangLcof {
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution_JZ27 {
     public TreeNode mirrorTree(TreeNode root) {
-        if(root!=null){
+        if(root==null){
             return root;
         }
         TreeNode temp = root.left;
